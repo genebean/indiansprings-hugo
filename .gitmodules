@@ -1,0 +1,3 @@
+[submodule "themes/silhouette-hugo"]
+	path = themes/silhouette-hugo
+	url = https://github.com/genebean/silhouette-hugo.git

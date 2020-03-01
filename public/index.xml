@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Indian Springs District</title>
+    <link>https://www.indianspringsbsa.org/</link>
+    <description>Recent content on Indian Springs District</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.indianspringsbsa.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
