@@ -1,4 +1,5 @@
-baseURL                 = "https://www.indianspringsbsa.org/"
+# baseURL                 = "https://www.indianspringsbsa.org"
+baseURL                 = "https://isd-atl-bsa.netlify.com"
 languageCode            = "en-us"
 title                   = "Indian Springs District, BSA"
 theme                   = "hugo-future-imperfect-slim"
