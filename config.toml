@@ -22,7 +22,7 @@ disableLanguages        = [""]
   # Sets options for highlight.js
   highlightjs           = true
   highlightjsTheme      = "github"
-  highlightjsLang       = ["html", "css", "js", "toml"]
+  highlightjsLang       = ["css", "html", "js", "puppet", "toml"]
   # Sets where "View More Posts" links to
   viewMorePostsLink     = "/blog/"
   # Activate Estimated Reading Times, which appear in the post headers
@@ -121,6 +121,20 @@ disableLanguages        = [""]
     identifier        = "about"
     url               = "/about/"
     pre               = "<i class='far fa-id-card'></i>"
+    weight            = 2
+
+  [[menu.main]]
+    name              = "Commissioners"
+    identifier        = "commissioners"
+    url               = "/commissioners/"
+    pre               = "<i class='fas fa-users'></i>"
+    weight            = 2
+
+  [[menu.main]]
+    name              = "Committees"
+    identifier        = "committees"
+    url               = "/committees/"
+    pre               = "<i class='fas fa-users'></i>"
     weight            = 2
 
   [[menu.main]]

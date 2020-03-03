@@ -2,6 +2,7 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
 collections:
@@ -13,7 +14,41 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Publish Date'
+        name: 'date'
+        widget: 'datetime'
+      - label: 'Description'
+        name: 'description'
+        widget: 'string'
+      - lable: 'Categories'
+        name: 'categories'
+        widget: 'list'
+        default:
+          - 'Announcement'
+      - lable: 'Tags'
+        name: 'tags'
+        widget: 'list'
+      - label: 'Type'
+        name: 'type'
+        widget: 'string'
+        default: 'post'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "content/about/_index.md"
+        fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+            default: 'About Indian Springs District, BSA'
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
