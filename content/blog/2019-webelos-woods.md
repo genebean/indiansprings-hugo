@@ -1,39 +1,39 @@
 ---
-title: '2019 Webelos Woods'
-date: Sun, 20 Oct 2019 01:54:50 +0000
-
-categories: ['Event']
+title: 2019 Webelos Woods
+date: 'Sun, 20 Oct 2019 01:54:50 +0000'
+description: >-
+  Webelos Woods is a camporee-style weekend where we focus on advancement for
+  Webelos and AOL/Webelos II Scouts
+categories:
+  - Event
+tags:
+  - camping
 type: post
 ---
+![2019 Webelos Woods logo](/uploads/9c391769-d9de-4fd3-a118-564339a75ec1.jpeg)
 
-![2019 Webelos Woods logo](https://www.indianspringsbsa.org/wp-content/uploads/2019/10/2019WebelosWoods.jpg)
+## October 25 – 27, 2019
 
-October 25 – 27, 2019
----------------------
+## Clinton Nature Preserve
 
-Clinton Nature Preserve
------------------------
+## 8720 Ephesus Church Rd,
 
-8720 Ephesus Church Rd,
------------------------
-
-Villa Rica, GA
---------------
+## Villa Rica, GA
 
 Contact:
 
-*   Georgia Deakin, Program Chair [ddeakin@comcast.net](mailto:ddeakin@comcast.net)
-*   Carter Smith, District Executive [csmith@atlantabsa.org](mailto:csmith@atlantabsa.org)
+* Georgia Deakin, Program Chair [ddeakin@comcast.net](mailto:ddeakin@comcast.net)
+* Carter Smith, District Executive [csmith@atlantabsa.org](mailto:csmith@atlantabsa.org)
 
 Scouts, Scouters and Parents, It is that time again – Webelos Woods! Webelos Woods is a camporee-style weekend where we focus on advancement for Webelos and AOL/Webelos II Scouts. Program is provided by Scouts BSA troops within our district. This gives the Webelos an unique experience – learning by doing and by observing what scouts at the next level do. The location of Clinton Nature Preserve gives us the perfect balance between camping in the woods and having some of the comforts of home – there are real restrooms available, at the back of the house for adults and in the permanent restroom building for scouts. Due to the nature of this activity, we strongly encourage you to leave siblings at home. This is not a family camp. This is a trip for Webelos dens/patrols and parents. If a pack or den chooses not to participate, we do encourage parents to bring their scouts on their own. There are no activities for younger siblings, and many of the activities are age appropriate for Webelos Scouts. If there is a situation where a Webelos Scout cannot attend without parents bringing the sibling, we of course want the Webelos Scout there. However, we ask that you are prepared for the probability that the sibling will not be able to participate in activities. The schedule on Saturday will be a round robin where packs will move between the various activities on a set schedule. Individual scouts will be paired for the day with another pack. The following advancement requirements have been covered in past years:
 
-*   Webelos Adventure Cast Iron Chef 2,3
-*   Webelos Adventure First Responder
-*   Webelos Adventure
-*   Webelos Walkabout 3, 5
-*   Webelos/AOL Elective Castaway
-*   AOL Adventure Outdoor Adventurer
-*   AOL Adventure Scouting Adventure 5
+* Webelos Adventure Cast Iron Chef 2,3
+* Webelos Adventure First Responder
+* Webelos Adventure
+* Webelos Walkabout 3, 5
+* Webelos/AOL Elective Castaway
+* AOL Adventure Outdoor Adventurer
+* AOL Adventure Scouting Adventure 5
 
 Please note that we do not sign off on advancements – that is at the discretion of the Cub Scout Leader. Cub Scout advancement is based upon the principle of Do Your Best, and as we do not know the scouts, we cannot judge a scout’s “Best.”
 
@@ -41,19 +41,19 @@ Please note that we do not sign off on advancements – that is at the discretio
 
 Registration is on the council website via Tentaroo.
 
-*   The direct link for Packs is [https://www.atlantabsa.org/event/3636/16533/Inidan-Springs-Webelos-Woods---Packs](https://www.atlantabsa.org/event/3636/16533/Inidan-Springs-Webelos-Woods---Packs)
-*   The direct link for Troops is [https://www.atlantabsa.org/event/3636/16534/Indian-Springs-Webelos-Woods---Troops](https://www.atlantabsa.org/event/3636/16534/Indian-Springs-Webelos-Woods---Troops)
+* The direct link for Packs is <https://www.atlantabsa.org/event/3636/16533/Inidan-Springs-Webelos-Woods---Packs>
+* The direct link for Troops is <https://www.atlantabsa.org/event/3636/16534/Indian-Springs-Webelos-Woods---Troops>
 
 Cost for Webelos is $10 per scout and $5 per adult. There is no cost for Scouts BSA, as they are providing the program. Registration will close on October 23. After that date, all payments will be at the event. Please contact Georgia Deakin at [ddeakin@comcast.net](mailto:ddeakin@comcast.net) with numbers you plan to register at the door so that we can plan properly. All meals are up to the pack/troop/individual. The Order of the Arrow will be cooking for Friday dinner for your convenience. Prices are below:
 
-*   Hot Dog $2
-*   Hamburger $3
-*   Chips $1
-*   Drink $1
-*   Candy Bar $1 - $2
-*   Hot Dog Combo w/chips and drink $4
-*   Hamburger Combo w/ Chips and drink $5
-*   2 Meat Combo w/ chips and drink $6
+* Hot Dog $2
+* Hamburger $3
+* Chips $1
+* Drink $1
+* Candy Bar $1 - $2
+* Hot Dog Combo w/chips and drink $4
+* Hamburger Combo w/ Chips and drink $5
+* 2 Meat Combo w/ chips and drink $6
 
 ### Check-in/Check-out
 
@@ -71,34 +71,34 @@ Though much of the program is advancement based rather than competition based, t
 
 #### Friday 10/25
 
-*   **4 PM** Check-in begins at White House
-*   **6 PM** Dinner Available at Large Pavilion
-*   **9 PM** Patrol Leaders Council – SPL or other scout and adult leader at White House
-*   **10 PM** Lights out (Cub Side)
-*   **11 PM** Lights out (Scout Side)
+* **4 PM** Check-in begins at White House
+* **6 PM** Dinner Available at Large Pavilion
+* **9 PM** Patrol Leaders Council – SPL or other scout and adult leader at White House
+* **10 PM** Lights out (Cub Side)
+* **11 PM** Lights out (Scout Side)
 
 Please abide by Lights out/quiet time, especially on the Cub Scout/Webelos side as we will have younger scouts who are not used to being up that late.
 
 #### Saturday 10/26
 
-*   Breakfast in Campsites
-*   **8:30 AM** Flag Ceremony at Ampitheater/Flags
-*   Turn in den flags for competition at Headquarters
-*   **9 AM** Classes begin around camp
-*   **12 noon** Lunch in campsites
-*   Turn in skits/songs for campfire at Headquarters
-*   **1:30 PM** Classes begin again around camp
-*   **5 PM** Dinner Preparations in campsites
-*   **6:30 PM** Turn in for desserts/entrees at Headquarters
-*   **7 PM** Campfire pickup in campsites
-*   **9 PM** Troop Visitation in campsites
-*   **10 PM** Lights out (Cub Side)
-*   **11 PM** Lights out (Scout Side)
+* Breakfast in Campsites
+* **8:30 AM** Flag Ceremony at Ampitheater/Flags
+* Turn in den flags for competition at Headquarters
+* **9 AM** Classes begin around camp
+* **12 noon** Lunch in campsites
+* Turn in skits/songs for campfire at Headquarters
+* **1:30 PM** Classes begin again around camp
+* **5 PM** Dinner Preparations in campsites
+* **6:30 PM** Turn in for desserts/entrees at Headquarters
+* **7 PM** Campfire pickup in campsites
+* **9 PM** Troop Visitation in campsites
+* **10 PM** Lights out (Cub Side)
+* **11 PM** Lights out (Scout Side)
 
 #### Sunday 10/27
 
-*   Breakfast in campsites
-*   **9 AM** Scouts Own/Interfaith Service at Ampitheater
-*   **10 AM** Check-out around camp
+* Breakfast in campsites
+* **9 AM** Scouts Own/Interfaith Service at Ampitheater
+* **10 AM** Check-out around camp
 
 Please ensure that you leave your camp site better than you found it. Trash may be left in the dumpster in the parking lot closest to the road or taken home with you. Above all, the rule is to **HAVE FUN!**
