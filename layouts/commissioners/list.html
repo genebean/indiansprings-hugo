@@ -9,6 +9,9 @@
       {{ partial "site-sidebar" . }}
       {{ partial "site-footer" . }}
       {{ partial "scripts" . }}
+      {{ if (.Params.mermaid) }}
+        {{ partial "mermaid-scripts" . }}
+      {{ end }}
     </div>
   </body>
 </html>
