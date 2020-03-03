@@ -52,3 +52,68 @@ collections:
           - label: 'Body'
             name: 'body'
             widget: 'markdown'
+      - label: "Commissioners Page"
+        name: "commissioners"
+        file: "content/commissioners/_index.md"
+        fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Description'
+            name: 'description'
+            widget: 'string'
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+      - label: "Roundtable Page"
+        name: "roundtable"
+        file: "content/commissioners/roundtable/_index.md"
+        fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Description'
+            name: 'description'
+            widget: 'string'
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+      - label: "Roundtable Documents"
+        name: "roundtable-documents"
+        file: "content/commissioners/roundtable/documents.md"
+        fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Description'
+            name: 'description'
+            widget: 'string'
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+      - label: "Roundtable Links"
+        name: "roundtable-links"
+        file: "content/commissioners/roundtable/links.md"
+        fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Description'
+            name: 'description'
+            widget: 'string'
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+      - label: "Unit Commissioners Page"
+        name: "unit"
+        file: "content/commissioners/unit/_index.md"
+        fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Description'
+            name: 'description'
+            widget: 'string'
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'

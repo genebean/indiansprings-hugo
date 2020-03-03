@@ -1,8 +1,6 @@
 ---
 title: 'Commissioners'
 description:
-date: Sun, 19 Jan 2020 05:52:26 +0000
-
 ---
 
 ## What we do
