@@ -10,38 +10,27 @@ Indian Springs is part of the [Atlanta Area Council](https://www.atlantabsa.org)
 
 Lion is Scouting for kindergarten-age boys and girls.
 
-[Learn More](https://beascout.scouting.org) ![](https://www.indianspringsbsa.org/wp-content/uploads/2019/01/family-scouting.jpg)
+![](/uploads/family-scouting.jpg)
+
+[Learn More](https://beascout.scouting.org)
 
 ### Family Scouting
 
 Family Scouting for Boy, Girls and Parents in Cub Scouts. Our priority at Crater Lake Council is to bring the opportunity and benefits of Scouting to all youth.
 
-[Learn More](https://beascout.scouting.org) ![](https://www.indianspringsbsa.org/wp-content/uploads/2019/01/join-scouting.jpg)
+![](/uploads/join-scouting.jpg)
+
+[Learn More](https://beascout.scouting.org)
 
 ### Join Scouting
 
 The BSA’s mission is to prepare young people to make ethical and moral choices over their lifetimes by instilling in them the values of the Scout Oath and Scout Law.
 
-[Learn More](https://beascout.scouting.org) ![](https://www.indianspringsbsa.org/wp-content/uploads/2019/01/icon-user.png)
+[Learn More](https://beascout.scouting.org)
 
-[Internet  
-Recharter](https://scoutnet.scouting.org/ucrs/UI/home/default.aspx)
--------------------------------------------------------------------------------
+### Quick links for units
 
-![](https://www.indianspringsbsa.org/wp-content/uploads/2019/01/icon-user.png)
-
-[Internet  
-Advancement](https://scoutbook.scouting.org/login)
---------------------------------------------------------------
-
-![](https://www.indianspringsbsa.org/wp-content/uploads/2019/01/icon-letter.png)
-
-[Service Hour  
-Reporting](https://servicehours.scouting.org/UI/Security/Login.aspx)
-------------------------------------------------------------------------------------
-
-![](https://www.indianspringsbsa.org/wp-content/uploads/2019/01/icon-download.png)
-
-[My.Scouting  
-Login](https://my.scouting.org/)
------------------------------------------------
+- [Internet Recharter](https://scoutnet.scouting.org/ucrs/UI/home/default.aspx)
+- [Internet Advancement](https://scoutbook.scouting.org/login)
+- [Service Hour Reporting](https://servicehours.scouting.org/UI/Security/Login.aspx)
+- [My.Scouting Login](https://my.scouting.org/)
