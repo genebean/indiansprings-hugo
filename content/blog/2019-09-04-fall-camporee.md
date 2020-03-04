@@ -1,6 +1,6 @@
 ---
 title: '2019 Fall Camporee'
-date: Wed, 04 Sep 2019 01:46:35 +0000
+date: '2019-09-04T01:46:35+0000'
 categories: ['Announcement', 'Event']
 type: post
 ---

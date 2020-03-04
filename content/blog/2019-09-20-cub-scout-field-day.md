@@ -1,6 +1,7 @@
 ---
+author: 'Kyle Taylor'
 title: '2019 Cub Scout Field Day'
-date: Fri, 20 Sep 2019 12:58:38 +0000
+date: '2019-09-20T12:58:38+0000'
 categories: ['Event']
 type: post
 ---
