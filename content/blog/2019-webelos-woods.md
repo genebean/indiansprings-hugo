@@ -1,24 +1,19 @@
 ---
 title: '2019 Webelos Woods'
 date: Sun, 20 Oct 2019 01:54:50 +0000
-
 categories: ['Event']
 type: post
 ---
 
-![2019 Webelos Woods logo](https://www.indianspringsbsa.org/wp-content/uploads/2019/10/2019WebelosWoods.jpg)
+![2019 Webelos Woods logo](/uploads/2019WebelosWoods.jpg)
 
-October 25 – 27, 2019
----------------------
+__October 25 – 27, 2019__
 
-Clinton Nature Preserve
------------------------
+__Clinton Nature Preserve__
 
-8720 Ephesus Church Rd,
------------------------
+__8720 Ephesus Church Rd,__
 
-Villa Rica, GA
---------------
+__Villa Rica, GA__
 
 Contact:
 
