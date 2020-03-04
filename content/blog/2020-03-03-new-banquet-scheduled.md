@@ -1,5 +1,4 @@
 ---
-author: "Gene Liverman"
 title: "New Banquet Scheduled"
 date: "2020-03-03T21:49:00-05:00"
 description:
