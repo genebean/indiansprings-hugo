@@ -1,6 +1,6 @@
 ---
 title: '2019 Award Nominations'
-date: Thu, 18 Apr 2019 03:04:49 +0000
+date: '2019-04-18T03:04:49+0000'
 type: post
 ---
 

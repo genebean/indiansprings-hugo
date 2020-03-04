@@ -1,6 +1,7 @@
 ---
+author: 'Georgia Deakin'
 title: '2020 "Sweet River Summit" Camporee'
-date: Fri, 28 Feb 2020 02:34:05 +0000
+date: '2020-02-27T02:34:05+0000'
 categories: ['Announcement', 'Event']
 tags: ['camping']
 type: post

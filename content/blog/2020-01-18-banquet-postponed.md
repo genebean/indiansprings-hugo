@@ -1,7 +1,6 @@
 ---
 title: 'Banquet Postponed'
-date: Sat, 18 Jan 2020 18:36:16 +0000
-
+date: '2020-01-18T18:36:16+0000'
 categories: ['Announcement']
 type: post
 ---
