@@ -1,0 +1,68 @@
+<div class="contact-container">
+{{ if $.Page.Params.enabled }}
+  {{ if $.Page.Params.netlify }}
+  <form name="contact" action="thank-you" netlify netlify-honeypot="always-empty" center width="300px">
+  {{ else }}
+  <form id="contact" action="//{{ $.Page.Params.emailService }}" method="post" center width="300px">
+  {{ end }}
+    <h2>Adult Award Nomination Form</h2>
+    <h3>Information about you</h3>
+    <fieldset>
+      <input placeholder="Your First Name" type="text" name="submitter_first_name"
+        tabindex="1" required>
+      <input placeholder="Your Last Name" type="text" name="submitter_last_name"
+        tabindex="2" required>
+      <input placeholder="Your Email Address" type="email" name="submitter_email"
+        tabindex="3" required>
+      <input placeholder="Your Unit" type="text" name="submitter_unit"
+        tabindex="4" required>
+    </fieldset>
+    <hr>
+    <h3>Information about the person being nominated</h3>
+    <fieldset>
+      <input placeholder="Nominee Name" type="text" name="nominee_name"
+        tabindex="5" required>
+      <input placeholder="Nominee Unit" type="text" name="nominee_unit"
+        tabindex="6" required>
+    </fieldset>
+    <hr>
+    <h3>Award information</h3>
+    <fieldset>
+      <select id="award" tabindex="7">
+        <option value="default" selected>Which award are you nominating someone for?</option>
+        <option value="Russell Turner Lifetime Service Award">Russell Turner Lifetime Service Award</option>
+        <option value="Scoutmaster of the Year">Scoutmaster of the Year</option>
+        <option value="Boy Scouter of the Year">Boy Scouter of the Year</option>
+        <option value="Cubmaster of the Year">Cubmaster of the Year</option>
+        <option value="Cub Scouter of the Year">Cub Scouter of the Year</option>
+        <option value="Scout Family of the Year">Scout Family of the Year</option>
+        <option value="Scout Spirit">Scout Spirit</option>
+        <option value="Hands On">Hands On</option>
+        <option value="Shining Light">Shining Light</option>
+        <option value="Spirit of the Eagle">Spirit of the Eagle</option>
+        <option value="Roger Allen Cheerful Service">Roger Allen Cheerful Service</option>
+        <option value="District Award of Merit">District Award of Merit</option>
+        <option value="Hot Spark">Hot Spark</option>
+        <option value="Godsend">Godsend</option>
+      </select>
+      <textarea placeholder="Nomination Write-up" name="write_up"
+        tabindex="8" required></textarea>
+    </fieldset>
+    <fieldset>
+      <input type="hidden" name="_language" value="{{ $.Page.Params.contact_lang }}">
+      <input type="hidden" name="_nomination_year" value="{{ $.Page.Params.nomination_year }}">
+      <input type="hidden" name="_source_page" value="{{ $.Page.Params.title }}">
+    </fieldset>
+    <input class="noshow" placeholder="Don’t fill this out if you're human" type="text" name="always-empty">
+    <fieldset>
+      <button name="submit" class="button" type="submit" id="nomination-submit" tabindex="9">Submit Nomination</button>
+    </fieldset>
+  </form>
+{{ else }}
+  <h2><em>Nominating has ended</em></h2>
+  <p>
+    We are no longer accepting nominations for the
+    {{ $.Page.Params.nomination_year }} banquet.
+  </p>
+{{ end }}
+</div>
