@@ -1,0 +1,18 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<hr>
+<div class="mermaid" align="{{ if .Get "align" }}{{ .Get "align" }}{{ else }}center{{ end }}">
+  graph LR
+    ViceChairProgram[Vice Chair Program: {{ .Site.Data.district_roles.vice_chair_program | default "vacant" }}]
+
+    CampingOutdoor["Camping & Outdoor: {{ .Site.Data.district_roles.camping_outdoor | default "vacant" }}"]
+    ActivitiesCivicService["Activities & Civic Service: {{ .Site.Data.district_roles.activities | default "vacant" }}"]
+    Training[Training: {{ .Site.Data.district_roles.training | default "vacant" }}]
+    Communications[Communications: {{ .Site.Data.district_roles.communications | default "vacant" }}]
+    AdvancementRecognition["Advancement & Recognition: {{ .Site.Data.district_roles.advancement_recognition | default "vacant" }}"]
+
+    ViceChairProgram --- CampingOutdoor
+    ViceChairProgram --- ActivitiesCivicService
+    ViceChairProgram --- Training
+    ViceChairProgram --- Communications
+    ViceChairProgram --- AdvancementRecognition
+</div>
