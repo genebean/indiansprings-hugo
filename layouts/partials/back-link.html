@@ -2,9 +2,9 @@
   <hr>
   {{ with .GetPage "../" }}
     {{ if eq .RelPermalink "/" }}
-    <a href="{{.Permalink}}"><i class="fas fa-home"></i>  Home</a>
+    <a href="{{.Permalink}}"><i class="fas fa-home"></i>&ensp;Home</a>
     {{ else }}
-    <a href="{{.Permalink}}"><i class="fas fa-arrow-circle-left"></i>  {{.Title}}</a>
+    <a href="{{.Permalink}}"><i class="fas fa-arrow-circle-left"></i>&ensp;{{.Title}}</a>
     {{ end }}
   {{ end }}
 </div>
