@@ -29,3 +29,15 @@ HUGO_VERSION = "0.63.2"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
+[[headers]]
+  for = "/*"
+
+  [headers.values]
+   Strict-Transport-Security = "max-age=16070400; includeSubDomains; preload"
+   X-Frame-Options = "DENY"
+
+[[redirects]]
+  from = "https://isd-atl-bsa.netlify.com/*"
+  to = "https://www.indianspringsbsa.org/:splat"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
