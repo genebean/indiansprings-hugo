@@ -1,0 +1,15 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<hr>
+<div class="mermaid" align="{{ if .Get "align" }}{{ .Get "align" }}{{ else }}center{{ end }}">
+  graph LR;
+    CampingOutdoor["Camping & Outdoor: {{ .Site.Data.district_roles.camping_outdoor | default "vacant" }}"]
+    DayCampPromotion[Day Camp Promotion: {{ .Site.Data.district_roles.day_camp_promotion | default "vacant" }}]
+    OA[Order of the Arrow: {{ .Site.Data.district_roles.oa | default "vacant" }}]
+    ResidentCamp[Resident Camp: {{ .Site.Data.district_roles.resident_camp | default "vacant" }}]
+    HealthSafety["Health & Safety {{ .Site.Data.district_roles.health_safety | default "vacant" }}"]
+
+    CampingOutdoor --- DayCampPromotion;
+    CampingOutdoor --- OA;
+    CampingOutdoor --- ResidentCamp;
+    CampingOutdoor --- HealthSafety;
+</div>

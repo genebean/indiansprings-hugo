@@ -132,9 +132,9 @@ disableLanguages        = [""]
     weight            = 2
 
   [[menu.main]]
-    name              = "Committees"
-    identifier        = "committees"
-    url               = "/committees/"
+    name              = "Committee"
+    identifier        = "committee"
+    url               = "/committee/"
     pre               = "<i class='fas fa-users'></i>"
     weight            = 2
 

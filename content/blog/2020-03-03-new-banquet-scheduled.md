@@ -10,4 +10,4 @@ type: "post"
 
 Our district banquet has been rescheduled for March 21, 2020 @ 5:30 at Villa Rica High School. Please use the link below to nominate deserving individuals!
 
-- [2020 Banquet Nomination Form]({{< ref "/committees/nominating/2020-banquet-nominations" >}})
+- [2020 Banquet Nomination Form]({{< ref "/committee/nominating/2020-banquet-nominations" >}})
