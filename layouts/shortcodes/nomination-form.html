@@ -1,9 +1,9 @@
 <div class="contact-container">
 {{ if $.Page.Params.enabled }}
   {{ if $.Page.Params.netlify }}
-  <form name="contact" action="thank-you" netlify netlify-honeypot="always-empty" center width="300px">
+  <form name="{{ $.Page.Params.nomination_year }}-nomination-form" action="thank-you" netlify netlify-honeypot="always-empty" center width="300px">
   {{ else }}
-  <form id="contact" action="//{{ $.Page.Params.emailService }}" method="post" center width="300px">
+  <form id="{{ $.Page.Params.nomination_year }}-nomination-form" action="//{{ $.Page.Params.emailService }}" method="post" center width="300px">
   {{ end }}
     <h2>Adult Award Nomination Form</h2>
     <h3>Information about you</h3>
