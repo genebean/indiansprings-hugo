@@ -1,0 +1,27 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<hr>
+<div class="mermaid" align="{{ if .Get "align" }}{{ .Get "align" }}{{ else }}center{{ end }}">
+  graph LR;
+    ViceChairFinance[Vice Chair Finance: {{ .Site.Data.district_roles.vice_chair_finance | default "vacant" }}]
+
+    GeneralFinance[General Finance: {{ .Site.Data.district_roles.general_finance | default "vacant" }}]
+    CampCardSales[Camp Card Sales: {{ .Site.Data.district_roles.camp_card_sales | default "vacant" }}]
+    PopcornSales[Popcorn Sales: {{ .Site.Data.district_roles.popcorn_sales | default "vacant" }}]
+    UnitFundraising[Unit Fundraising: {{ .Site.Data.district_roles.unit_fundraising | default "vacant" }}]
+
+    FOS[Friends of Scouting: {{ .Site.Data.district_roles.fos | default "vacant" }}]
+    CommunityFOS[Community FOS: {{ .Site.Data.district_roles.community_fos | default "vacant" }}]
+    FamilyFOS[Family FOS: {{ .Site.Data.district_roles.family_fos | default "vacant" }}]
+    GoldenEagle[Golden Eagle: {{ .Site.Data.district_roles.golden_eagle | default "vacant" }}]
+
+    ViceChairFinance --- GeneralFinance;
+    ViceChairFinance --- FOS;
+
+    GeneralFinance --- CampCardSales;
+    GeneralFinance --- PopcornSales;
+    GeneralFinance --- UnitFundraising;
+
+    FOS --- CommunityFOS;
+    FOS --- FamilyFOS;
+    FOS --- GoldenEagle;
+</div>

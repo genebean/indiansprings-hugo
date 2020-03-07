@@ -1,0 +1,19 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+<hr>
+<div class="mermaid" align="{{ if .Get "align" }}{{ .Get "align" }}{{ else }}center{{ end }}">
+  graph LR
+    ViceChairMembership[Vice Chair Membership: {{ .Site.Data.district_roles.vice_chair_membership | default "vacant" }}]
+    Membership[Membership: {{ .Site.Data.district_roles.membership | default "vacant" }}]
+    SNFS[SNFS: {{ .Site.Data.district_roles.snfs | default "vacant" }}]
+    SpringRecruitment[Spring Recruitment: {{ .Site.Data.district_roles.spring_recruitment | default "vacant" }}]
+    NewUnits[New Units: {{ .Site.Data.district_roles.new_units | default "vacant" }}]
+    VenturingExploring[Venturing Exploring: {{ .Site.Data.district_roles.venturing_exploring | default "vacant" }}]
+    Retention[Retention: {{ .Site.Data.district_roles.retention | default "vacant" }}]
+
+    ViceChairMembership --- Membership
+    Membership --- SNFS
+    Membership --- SpringRecruitment
+    Membership --- NewUnits
+    Membership --- VenturingExploring
+    Membership --- Retention
+</div>
