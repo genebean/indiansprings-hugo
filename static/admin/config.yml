@@ -39,8 +39,8 @@ collections:
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
-  - label: "Pages"
-    name: "pages"
+  - label: "Site Pages"
+    name: "site_pages"
     files:
       - label: "About Page"
         name: "about"
@@ -53,6 +53,9 @@ collections:
           - label: 'Body'
             name: 'body'
             widget: 'markdown'
+  - label: "Commissioner Pages"
+    name: "commissioner_pages"
+    files:
       - label: "Commissioners Page"
         name: "commissioners"
         file: "content/commissioners/_index.md"
@@ -114,6 +117,61 @@ collections:
             widget: 'string'
           - label: 'Description'
             name: 'description'
+            widget: 'string'
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+  - label: "Committee Pages"
+    name: "committee_pages"
+    files:
+      - label: "Communication Page"
+        name: "communication"
+        file: "content/committee/vc-program/communications/_index.md"
+        fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Description'
+            name: 'description'
+            widget: 'string'
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+      - label: "Webmasters Page"
+        name: "webmaster"
+        file: "content/committee/vc-program/communications/webmasters.md"
+        fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Description'
+            name: 'description'
+            widget: 'string'
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+      - label: "Admin Guide"
+        name: "admin_guide"
+        file: "content/committee/vc-program/communications/admin-guide.md"
+        fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Description'
+            name: 'description'
+            widget: 'string'
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+      - label: "Home Page"
+        name: "home"
+        file: "content/_index.md"
+        fields:
+          - label: 'Hero Image'
+            name: 'hero_image'
+            widget: 'string'
+          - label: 'Hero Alt Text'
+            name: 'hero_alt_text'
             widget: 'string'
           - label: 'Body'
             name: 'body'
