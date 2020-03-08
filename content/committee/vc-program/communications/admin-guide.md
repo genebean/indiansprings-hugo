@@ -1,12 +1,28 @@
 ---
-title: 'Admin Guide'
-date: Thu, 18 Apr 2019 01:04:28 +0000
-
+title: Admin Guide
+date: '2020-03-08T20:57:00-0500'
+description: A guide for those interested in contributing to our site
 ---
 
-Once logged in as an editor you will see more pages linked under "Admin Guide." They are intended to be a guide book of sorts. Please check the page called "Webmasters" to see who to you can reach out to with any feedback or simply bring it up at our next district committee meeting.
+## Editing or adding content
 
-User accounts
--------------
+There are two ways that you can go about contributing content to our site. The first is through a web interface available at [here](/admin/). To get into that interface you first need to contact the chair of the Communications Committee, {{< district-role "communications" >}}, for an account. The other way you can contribute is via GitHub. If the later appeals to you then check out the repository for this site [here](https://github.com/genebean/indiansprings-hugo/).
 
-To avoid some of the common issues that come with running a site like this, we require human-to-human interaction to get an account setup. Contact your committee chair or a webmaster to get your account created. When you go to log in the first time, you will be promoted for a code from an app that can be used for [two-factor authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication). [2FAS](https://2fas.com) has an app that will integrate with our site or you could use something independent like [Duo Mobile](https://duo.com/product/trusted-users/two-factor-authentication/duo-mobile). They both have apps for Android and iOS. If you don't have smart phone you are not out of luck - [1Password](https://1password.com/), a wonderful password manager, can do all you need. You are also welcome to use any other program that can generate a Time-based One-time Password (TOTP).
+## Technical details
+
+Below are a few of the technical details about how this site is setup:
+
+* The site runs on [Netlify](https://www.netlify.com).
+* The site is build using [Hugo](https://gohugo.io/). Hugo is one of the most popular open-source static site generators.
+* The web-based editor is [Netlify CMS](https://www.netlifycms.org).
+* The `indianspringsbsa.org` domain is registered with [Gandi](https://www.gandi.net).
+* DNS for `indianspringsbsa.org` is also through Gandi:
+
+  ```plain
+  @   300 IN ALIAS isd-atl-bsa.netlify.com.
+  www 300 IN CNAME isd-atl-bsa.netlify.com.
+  ```
+
+## Help wanted
+
+Seeing as you made it this far, I am assuming you have at least a passing interest in our site. If that is indeed the case then please reach out to {{< district-role "communications" >}} as we could really use any amount of help you are willing to provide.
