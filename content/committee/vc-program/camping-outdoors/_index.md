@@ -5,5 +5,3 @@ mermaid: true
 ---
 
 Our district's place to log camping days and nights is [https://is18camp.wixsite.com/camp](https://is18camp.wixsite.com/camp) Thanks goes out to Barry Griffin for building and maintaining that site!
-
-{{<charts/vc-program/camping>}}
