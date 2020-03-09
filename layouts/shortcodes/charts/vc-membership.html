@@ -2,18 +2,27 @@
 <hr>
 <div class="mermaid" align="{{ if .Get "align" }}{{ .Get "align" }}{{ else }}center{{ end }}">
   graph LR
-    ViceChairMembership[Vice Chair Membership: {{ .Site.Data.district_roles.vice_chair_membership | default "vacant" }}]
-    Membership[Membership: {{ .Site.Data.district_roles.membership | default "vacant" }}]
-    SNFS[SNFS: {{ .Site.Data.district_roles.snfs | default "vacant" }}]
-    SpringRecruitment[Spring Recruitment: {{ .Site.Data.district_roles.spring_recruitment | default "vacant" }}]
-    NewUnits[New Units: {{ .Site.Data.district_roles.new_units | default "vacant" }}]
-    VenturingExploring[Venturing Exploring: {{ .Site.Data.district_roles.venturing_exploring | default "vacant" }}]
-    Retention[Retention: {{ .Site.Data.district_roles.retention | default "vacant" }}]
+    
+    DistrictChair[District Chair: {{ .Site.Data.district_roles.district_chair | default "vacant" }}]
 
-    ViceChairMembership --- Membership
-    Membership --- SNFS
-    Membership --- SpringRecruitment
-    Membership --- NewUnits
-    Membership --- VenturingExploring
-    Membership --- Retention
+    ViceChairMembership[Vice Chair of Membership: {{ .Site.Data.district_roles.vice_chair_membership | default "vacant" }}]
+      Membership[Membership: {{ .Site.Data.district_roles.membership | default "vacant" }}]
+        SNFS[SNFS: {{ .Site.Data.district_roles.snfs | default "vacant" }}]
+        SpringRecruitment[Spring Recruitment: {{ .Site.Data.district_roles.spring_recruitment | default "vacant" }}]
+        NewUnits[New Units: {{ .Site.Data.district_roles.new_units | default "vacant" }}]
+        VenturingExploring[Venturing Exploring: {{ .Site.Data.district_roles.venturing_exploring | default "vacant" }}]
+        Retention[Retention: {{ .Site.Data.district_roles.retention | default "vacant" }}]
+
+    {{ range $elem_index, $elem_val := .Site.Data.district_roles.district_executives | default "vacant" }}
+    DE{{ $elem_index }}[District Executive: {{ $elem_val }}]
+    DE{{ $elem_index }} -.- DistrictChair
+    {{ end }}
+
+    DistrictChair --- ViceChairMembership
+      ViceChairMembership --- Membership
+        Membership --- SNFS
+        Membership --- SpringRecruitment
+        Membership --- NewUnits
+        Membership --- VenturingExploring
+        Membership --- Retention
 </div>
