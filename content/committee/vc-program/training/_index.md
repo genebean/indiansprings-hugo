@@ -15,5 +15,3 @@ Click on the flyers below to register for these upcoming training events!
  [![](/uploads/ITOLS-14-15-March-2020.jpg)](https://www.atlantabsa.org/event/3842/15375/Basic-IOLS---Villa-Rica---March-2020) [![](/uploads/YPT-Announcement.jpg)](https://www.scouting.org/training/youth-protection/) 
 
 __Don't forget our district's monthly Roundtable meetings on the third Thursday of most months, 6:30-8:30pm, at the cafeteria of Villa Rica High School.__
-
-<!-- {{<charts/vc-program/training>}} -->
