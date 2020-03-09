@@ -1,27 +1,33 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 <hr>
 <div class="mermaid" align="{{ if .Get "align" }}{{ .Get "align" }}{{ else }}center{{ end }}">
-  graph LR;
-    ViceChairFinance[Vice Chair Finance: {{ .Site.Data.district_roles.vice_chair_finance | default "vacant" }}]
+  graph LR
+    
+    DistrictChair[District Chair: {{ .Site.Data.district_roles.district_chair | default "vacant" }}]
 
-    GeneralFinance[General Finance: {{ .Site.Data.district_roles.general_finance | default "vacant" }}]
-    CampCardSales[Camp Card Sales: {{ .Site.Data.district_roles.camp_card_sales | default "vacant" }}]
-    PopcornSales[Popcorn Sales: {{ .Site.Data.district_roles.popcorn_sales | default "vacant" }}]
-    UnitFundraising[Unit Fundraising: {{ .Site.Data.district_roles.unit_fundraising | default "vacant" }}]
+    ViceChairFinance[Vice Chair of Finance: {{ .Site.Data.district_roles.vice_chair_finance | default "vacant" }}]
+      GeneralFinance[General Finance: {{ .Site.Data.district_roles.general_finance | default "vacant" }}]
+        CampCardSales[Camp Card Sales: {{ .Site.Data.district_roles.camp_card_sales | default "vacant" }}]
+        PopcornSales[Popcorn Sales: {{ .Site.Data.district_roles.popcorn_sales | default "vacant" }}]
+        UnitFundraising[Unit Fundraising: {{ .Site.Data.district_roles.unit_fundraising | default "vacant" }}]
+      FOS[Friends of Scouting: {{ .Site.Data.district_roles.fos | default "vacant" }}]
+        CommunityFOS[Community FOS: {{ .Site.Data.district_roles.community_fos | default "vacant" }}]
+        FamilyFOS[Family FOS: {{ .Site.Data.district_roles.family_fos | default "vacant" }}]
+        GoldenEagle[Golden Eagle: {{ .Site.Data.district_roles.golden_eagle | default "vacant" }}]   
 
-    FOS[Friends of Scouting: {{ .Site.Data.district_roles.fos | default "vacant" }}]
-    CommunityFOS[Community FOS: {{ .Site.Data.district_roles.community_fos | default "vacant" }}]
-    FamilyFOS[Family FOS: {{ .Site.Data.district_roles.family_fos | default "vacant" }}]
-    GoldenEagle[Golden Eagle: {{ .Site.Data.district_roles.golden_eagle | default "vacant" }}]
+    {{ range $elem_index, $elem_val := .Site.Data.district_roles.district_executives | default "vacant" }}
+    DE{{ $elem_index }}[District Executive: {{ $elem_val }}]
+    DE{{ $elem_index }} -.- DistrictChair
+    {{ end }}
 
-    ViceChairFinance --- GeneralFinance;
-    ViceChairFinance --- FOS;
+    DistrictChair --- ViceChairFinance
+      ViceChairFinance --- GeneralFinance;
+        GeneralFinance --- CampCardSales;
+        GeneralFinance --- PopcornSales;
+        GeneralFinance --- UnitFundraising;
 
-    GeneralFinance --- CampCardSales;
-    GeneralFinance --- PopcornSales;
-    GeneralFinance --- UnitFundraising;
-
-    FOS --- CommunityFOS;
-    FOS --- FamilyFOS;
-    FOS --- GoldenEagle;
+      ViceChairFinance --- FOS;
+        FOS --- CommunityFOS;
+        FOS --- FamilyFOS;
+        FOS --- GoldenEagle;
 </div>
