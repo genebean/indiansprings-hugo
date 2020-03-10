@@ -1,6 +1,4 @@
-# baseURL                 = "https://www.indianspringsbsa.org"
-# baseURL                 = "https://isd-atl-bsa.netlify.com"
-baseURL                 = "/" # make links and static resources work regardless of domain
+baseURL                 = "https://www.indianspringsbsa.org"
 languageCode            = "en-us"
 title                   = "Indian Springs District, BSA"
 theme                   = "hugo-future-imperfect-slim"
