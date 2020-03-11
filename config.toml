@@ -10,7 +10,8 @@ pluralizeListTitles     = false
 disableLanguages        = [""]
 
 [params]
-  mainSections          = ["blog", "post"]
+  mainSections          = ["post"]
+  recents               = ["newsletter", "post"]
   enableCDN             = false
 
   # Loads CSS and JavaScript files. The variable is an array so that you can load
@@ -145,10 +146,10 @@ disableLanguages        = [""]
     weight            = 3
 
   [[menu.main]]
-    name              = "Categories"
-    identifier        = "categories"
-    url               = "/categories/"
-    pre               = "<i class='fas fa-sitemap'></i>"
+    name              = "Newsletter"
+    identifier        = "newsletter"
+    url               = "/newsletter/"
+    pre               = "<i class='far fa-newspaper'></i>"
     weight            = 5
 
   [[menu.main]]
