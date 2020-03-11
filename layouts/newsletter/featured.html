@@ -1,11 +1,28 @@
-{{ if .Params.images }}
-  <a href="{{ .RelPermalink }}" class="image featured">
-    {{ range first 1 .Params.images }}
-      <img src="{{ . | relURL }}" alt="">
-    {{ end }}
+{{ if .Params.image }}
+<a href="{{ .RelPermalink }}" class="image featured">
+  <img src="{{ .Params.image | relURL }}" {{ with .Params.image_alt }}alt="{{ .}}"{{ end }}>
+</a>
+{{ end }}
+{{ if .Params.cc_image }}
+{{ echoParam .Params "cc_image" }}
+<p style="font-size: 0.9rem;font-style: italic;">
+  <a href='{{ echoParam .Params.cc_image "src" }}'>
+    "{{ echoParam .Params.cc_image "title" }}"
   </a>
-{{ else if .Params.featured }}
-  <a href="{{ .RelPermalink }}" class="image featured">
-    <img src="{{ (path.Join "img" (cond (eq .Params.featuredpath "date") (.Page.Date.Format "2006/01") (.Params.featuredpath)) .Params.featured) | relURL }}" alt="{{ .Params.featuredalt }}">
-  </a>
+  {{ if .Params.cc_image.author_src }} <span> by <a href='{{ echoParam .Params.cc_image "author_src" }}'>{{ echoParam .Params.cc_image "author_name" }}</a></span>{{ end }}
+  is licensed under
+  <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC
+    BY-NC-ND 2.0
+  </a><a href="https://creativecommons.org/licenses/by-nc-nd/2.0/?ref=ccsearch&atype=html" target="_blank"
+    rel="noopener noreferrer"
+    style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img
+      style="height: inherit;margin-right: 3px;display: inline-block;"
+      src="https://search.creativecommons.org/static/img/cc_icon.svg" /><img
+      style="height: inherit;margin-right: 3px;display: inline-block;"
+      src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img
+      style="height: inherit;margin-right: 3px;display: inline-block;"
+      src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" /><img
+      style="height: inherit;margin-right: 3px;display: inline-block;"
+      src="https://search.creativecommons.org/static/img/cc-nd_icon.svg" /></a>
+</p>
 {{ end }}
