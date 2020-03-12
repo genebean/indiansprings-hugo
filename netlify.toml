@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "cd themes/hugo-future-imperfect-slim && git submodule update -f --init && cd ../.. && hugo --gc --minify"
+command = "cd themes/hugo-future-imperfect-slim && git submodule update -f --init && cd ../.. && hugo --gc --minify --enableGitInfo"
 
 [context.production.environment]
 HUGO_VERSION = "0.63.2"
@@ -15,13 +15,13 @@ HUGO_VERSION = "0.63.2"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
-command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify --enableGitInfo --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.63.2"
 
 [context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "hugo --gc --minify --enableGitInfo -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.63.2"
