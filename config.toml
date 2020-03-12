@@ -10,7 +10,7 @@ pluralizeListTitles     = false
 disableLanguages        = [""]
 
 [params]
-  mainSections          = ["post"]
+  mainSections          = ["newsletter", "post"]
   recents               = ["newsletter", "post"]
   enableCDN             = false
 
