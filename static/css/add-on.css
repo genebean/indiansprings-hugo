@@ -1,3 +1,17 @@
+.blue-box {
+    padding: 18px;
+    background: #003F87;
+    color: #F2F2F2;
+    text-align: center;
+}
+
 .noshow {
     visibility: hidden;
+}
+
+.red-box {
+    padding: 18px;
+    background: #CE1126;
+    color: #F2F2F2;
+    text-align: center;
 }
