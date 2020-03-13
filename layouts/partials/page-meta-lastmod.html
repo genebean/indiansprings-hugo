@@ -1,0 +1,1 @@
+Last modified {{ default (i18n "date_format") | .Lastmod.Format }}{{ with .GitInfo }} via <a  href="{{ $.Site.Params.github_repo }}/commit/{{ .Hash }}">{{ .Subject }}</a>{{end }}
