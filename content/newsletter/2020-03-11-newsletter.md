@@ -1,7 +1,7 @@
 ---
 author: Gene Liverman
 title: March 2020 Newsletter
-date: 2020-03-11T18:00:00-0400
+date: 2020-03-12T22:00:00-0400
 categories:
   - newsletter
 description: >-
@@ -20,6 +20,10 @@ cc_image:
 
 Let’s kick this month’s update off with a couple of headlines:
 
+{{< red-box >}}
+The 2020 AAC College of Commissioners Science and the Camporee have been postponed. See full announcement below.
+{{< /red-box >}}
+
 {{< blue-box >}}
 Roundtable is Thursday night (see the announcement <a href="/blog/2020-03-10-march-round-table/">here</a> or the flier below for details)
 {{< /blue-box>}}
@@ -28,9 +32,13 @@ Roundtable is Thursday night (see the announcement <a href="/blog/2020-03-10-mar
 Our district banquet has been rescheduled but it’ll only be interesting if more nominations are submitted. Fortunately, you can help with that! See the announcement <a href="/blog/2020-03-03-new-banquet-scheduled/">here</a> for more details.
 {{< /red-box >}}
 
-## 2020 “Sweet River Summit” Camporee ⛺
+## 2020 AAC College of Commissioners Science postponed
 
-Indian Springs and Picketts Mill will be holding a combined Camporee March 27-29 at [Clinton](https://www.celebratedouglascounty.com/view/departments/view_dept/&cdept=211&department=Clinton%20Nature%20Preserve). This year’s theme is disabilities awareness. The event’s activities will go hand in hand with the merit badge of the same name. As a bonus, most attendees will be able to fulfill almost every requirement for the merit badge, if they choose to.
+Out of an abundance of caution, we have made the difficult decision to postpone this weekend's "2020 AAC College of Commissioner Science". The college will be rescheduled ASAP once the current coronavirus pandemic is behind us. All registrations will remain valid until a new date is selected. Participants with a conflict on the new date will be able to request a refund at that time. Thank you for your understanding and patience. We are all very excited to deliver you an excellent commissioner training event - once it is safe to do so.
+
+## 2020 “Sweet River Summit” Camporee ⛺ postponed
+
+The theme for the upcoming camporee is Scouting For All. We want to be inclusive for all. Some of our special needs community is at a much higher risk than the general public for complications from the COVID-19 virus. In that spirit, we have made the difficult decision to reschedule the camporee for August 21-23. We hope you will make the necessary changes to your calendars to join us then.
 
 ## March District Committee Meeting
 
@@ -64,7 +72,7 @@ Last, but not least, a reminder that Scoutmasters should not be entering Advance
 
   ![YPT Icon](/uploads/YPT-Banner.png)
 
-**Georgia Deakin** updated us on activities: we talked about events that will be happening at the camporee. Among other awesome sounding things, we will have a Scout doing pledge and other ceremonies in American Sign Language. Registration is $10 now, $15 after the 15th of March. Two additional notes:
+**Georgia Deakin** updated us on activities: we talked about events that will be happening at the camporee. Among other awesome sounding things, we will have a Scout doing pledge and other ceremonies in American Sign Language. Registration is $10 now, $15 after the 15th of March. You can register [here](https://www.atlantabsa.org/calendar/district/720/Indian-Springs). Two additional notes:
 
 * I was particularly happy to hear that multiple female units will be attending this year’s event.
 * OA will be selling food.
