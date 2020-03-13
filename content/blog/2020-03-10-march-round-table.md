@@ -3,12 +3,14 @@ author: Kyle Taylor
 title: March 2020 Round Table
 date: 2020-03-10T20:04:00-0400
 description: >-
-  Roundtable is 6:30 Thursday March 19th at VRHS. See the flier below for more
-  info.
+  March 2020 Roundtable has been canceled
 categories:
   - Announcement
 tags:
   - roundtable
 type: post
 ---
+
+Roundtable for this month has been canceled. For reference later, below is the original flier.
+
 ![March Roundtable Flier](/uploads/march-rt-flyer.jpg "March Roundtable Flier")
