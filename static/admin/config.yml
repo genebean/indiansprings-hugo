@@ -82,10 +82,6 @@ collections:
         name: 'tags'
         widget: 'list'
         required: false
-      - label: 'Type'
-        name: 'type'
-        widget: 'string'
-        default: 'post'
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
