@@ -10,6 +10,8 @@ pluralizeListTitles     = false
 disableLanguages        = [""]
 
 [params]
+  github_repo           = "https://github.com/genebean/indiansprings-hugo"
+
   mainSections          = ["newsletter", "post"]
   recents               = ["newsletter", "post"]
   enableCDN             = false
