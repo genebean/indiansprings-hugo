@@ -2,6 +2,8 @@
 author: Gene Liverman
 title: March 2020 Newsletter
 date: 2020-03-12T22:30:00-0400
+aliases:
+  - '/newsletter/2020-03-11-newsletter/'
 categories:
   - newsletter
 description: >-
