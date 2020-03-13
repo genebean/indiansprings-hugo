@@ -22,6 +22,10 @@
             {{ .Content }}
             {{ partial "back-link" . }}
           </div>
+          <div>
+            <hr>
+            {{ partial "page-meta-lastmod.html" . }}
+          </div>
         </article>
       </main>
       {{ partial "site-sidebar" . }}
