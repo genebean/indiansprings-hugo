@@ -15,6 +15,9 @@ collections:
     editor:
       preview: true
     fields:
+      - label: 'Author'
+        name: 'author'
+        widget: 'string'
       - label: 'Title'
         name: 'title'
         widget: 'string'
@@ -29,6 +32,51 @@ collections:
         widget: 'list'
         default:
           - 'Announcement'
+        required: false
+      - lable: 'Tags'
+        name: 'tags'
+        widget: 'list'
+        required: false
+      - label: 'Type'
+        name: 'type'
+        widget: 'string'
+        default: 'post'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+  - name: 'newsletter'
+    label: 'Newsletter'
+    folder: 'content/newsletter'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - label: 'Author'
+        name: 'author'
+        widget: 'string'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Publish Date'
+        name: 'date'
+        widget: 'datetime'
+      - label: 'Description'
+        name: 'description'
+        widget: 'string'
+      - label: 'Image'
+        name: 'image'
+        widget: 'string'
+        required: false
+      - label: 'Image Alt Text'
+        name: 'image_alt'
+        widget: 'string'
+        required: false
+      - lable: 'Categories'
+        name: 'categories'
+        widget: 'list'
+        default:
+          - 'newsletter'
         required: false
       - lable: 'Tags'
         name: 'tags'
