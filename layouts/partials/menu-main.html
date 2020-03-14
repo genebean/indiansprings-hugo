@@ -11,9 +11,22 @@
       <div class="dropdown-content" id="{{ .Identifier }}">
         <ul>
         {{ range .Children }}
-          <li><a href="{{ .URL | relLangURL }}" class="link">
-            {{ with .Pre }}{{ . }} {{ end }}{{ .Name }}
-          </a></li>
+          <li>
+            <a href="{{ .URL | relLangURL }}" class="link">
+              {{ with .Pre }}{{ . }} {{ end }}{{ .Name }}
+            </a>
+          </li>
+          {{ if .HasChildren }}
+            <ul>
+              {{ range .Children }}
+                <li>
+                  <a href="{{ .URL | relLangURL }}" class="link">
+                    - {{ with .Pre }}{{ . }} {{ end }}{{ .Name }}
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+          {{ end }}
         {{ end }}
        </ul>
       </div>

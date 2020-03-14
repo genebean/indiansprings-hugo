@@ -3,11 +3,11 @@ title: 'District Committee'
 description:
 menu:
   main:
-    name: "Committee"
-    identifier: "committee"
+    parent: 'committee'
+    name: "Overview"
+    identifier: "committee-overview"
     url: "/committee/"
-    pre: "<i class='fas fa-users'></i>"
-    weight: 2
+    weight: 1
 mermaid: true
 ---
 

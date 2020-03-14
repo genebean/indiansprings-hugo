@@ -3,11 +3,11 @@ title: 'Commissioners'
 description:
 menu:
   main:
-    name: "Commissioners"
-    identifier: "commissioners"
+    parent: "commissioners"
+    name: "Overview"
+    identifier: "commissioner-overview"
     url: "/commissioners/"
-    pre: "<i class='fas fa-users'></i>"
-    weight: 2
+    weight: 1
 ---
 
 ## What we do

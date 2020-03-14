@@ -120,10 +120,26 @@ disableLanguages        = [""]
     weight            = 1
 
   [[menu.main]]
-    name              = "Info"
+    name              = "More Info"
     identifier        = "info"
     url               = "#"
-    weight            = 2
+    pre               = "<i class='fas fa-info-circle'></i>"
+    weight            = 10
+
+  [[menu.main]]
+    name              = "Commissioners"
+    identifier        = "commissioners"
+    url               = "#"
+    pre               = "<i class='fas fa-users'></i>"
+    weight            = 10
+
+  [[menu.main]]
+    name              = "Committee"
+    identifier        = "committee"
+    url               = "#"
+    pre               = "<i class='fas fa-users'></i>"
+    weight            = 10
+
   [[menu.main]]
     name              = "Blog"
     identifier        = "blog"
@@ -136,7 +152,7 @@ disableLanguages        = [""]
     identifier        = "newsletter"
     url               = "/newsletter/"
     pre               = "<i class='far fa-newspaper'></i>"
-    weight            = 5
+    weight            = 3
 
 [Languages]
   # Each language has its own menu.
