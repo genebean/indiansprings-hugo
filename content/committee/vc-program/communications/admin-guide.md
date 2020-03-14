@@ -3,10 +3,9 @@ title: Admin Guide
 date: '2020-03-08T20:57:00-0500'
 description: A guide for those interested in contributing to our site
 ---
-
 ## Editing or adding content
 
-There are two ways that you can go about contributing content to our site. The first is through a web interface available at [here](/admin/). To get into that interface you first need to contact the chair of the Communications Committee, {{< district-role "communications" >}}, for an account. The other way you can contribute is via GitHub. If the later appeals to you then check out the repository for this site [here](https://github.com/genebean/indiansprings-hugo/).
+There are two ways that you can go about contributing content to our site. The first is through a web interface available at [here](/admin/). The first time you visit that page you will to click on "sign up" at the top and follow the instructions. Once your account is made you will need to contact the chair of the Communications Committee, {{< district-role "communications" >}}, to be granted additional permissions so that you can create and edit content. The other way you can contribute is via GitHub. If the later appeals to you then check out the repository for this site [here](https://github.com/genebean/indiansprings-hugo/).
 
 ## Technical details
 
