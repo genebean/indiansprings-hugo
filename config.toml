@@ -120,26 +120,10 @@ disableLanguages        = [""]
     weight            = 1
 
   [[menu.main]]
-    name              = "About"
-    identifier        = "about"
-    url               = "/about/"
-    pre               = "<i class='far fa-id-card'></i>"
+    name              = "Info"
+    identifier        = "info"
+    url               = "#"
     weight            = 2
-
-  [[menu.main]]
-    name              = "Commissioners"
-    identifier        = "commissioners"
-    url               = "/commissioners/"
-    pre               = "<i class='fas fa-users'></i>"
-    weight            = 2
-
-  [[menu.main]]
-    name              = "Committee"
-    identifier        = "committee"
-    url               = "/committee/"
-    pre               = "<i class='fas fa-users'></i>"
-    weight            = 2
-
   [[menu.main]]
     name              = "Blog"
     identifier        = "blog"
@@ -153,13 +137,6 @@ disableLanguages        = [""]
     url               = "/newsletter/"
     pre               = "<i class='far fa-newspaper'></i>"
     weight            = 5
-
-  [[menu.main]]
-    name              = "Contact"
-    identifier        = "contact"
-    url               = "/contact/"
-    pre               = "<i class='far fa-envelope'></i>"
-    weight            = 6
 
 [Languages]
   # Each language has its own menu.

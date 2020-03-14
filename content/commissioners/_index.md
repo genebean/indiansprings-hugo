@@ -1,6 +1,13 @@
 ---
 title: 'Commissioners'
 description:
+menu:
+  main:
+    name: "Commissioners"
+    identifier: "commissioners"
+    url: "/commissioners/"
+    pre: "<i class='fas fa-users'></i>"
+    weight: 2
 ---
 
 ## What we do

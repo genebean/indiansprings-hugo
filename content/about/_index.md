@@ -1,5 +1,13 @@
 ---
 title: "About Indian Springs District, BSA"
+menu:
+  main:
+    parent: 'info'
+    name: "About"
+    identifier: "about"
+    url: "/about/"
+    pre: "<i class='far fa-id-card'></i>"
+    weight: 2
 ---
 
 We are located in west Georgia, serving Scouts in Carroll, Douglas, and Haralson counties. We serve all ages of Scouts from all backgrounds. Scouting programs include Cub Scouts, Scouts BSA, Venturing, and Varsity Scouts. There is something for any youth from the first grade up to age 21.
