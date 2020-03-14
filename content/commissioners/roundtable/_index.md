@@ -1,15 +1,11 @@
 ---
-title: 'Roundtable'
-description: 'Strengthening unit leaders through training'
+title: Roundtable
+description: Strengthening unit leaders through training
 ---
-
 The Indian Springs District Roundtable meeting is a monthly gathering of Scout leaders from across the district.  Meeting on the third Thursday of each month (except June and July) from 6:30 to 8:30pm in the cafeteria of Villa Rica High School (except during school breaks), leaders and parents from all packs, troops, crews, and ships are invited to attend for access to the latest Scouting news, best practices, district & council resources, fellowship, and networking.  Roundtable includes specialize breakouts for pack and troop leaders to focus on their units.
 
-![](/uploads/Feb-RT-Flyer-1.jpg)
 
-Upcoming Roundtable Schedule:
-
-Thursday, February 20 - National Media Publications, Packs: Vaudeville Night, Troops: Life to Eagle  
+### Upcoming Roundtable Schedule:
 
 Thursday, March 19 - The Adventure Plan, Packs: Campfires, Troops: Communication & Public Speaking Merit Badges  
 
