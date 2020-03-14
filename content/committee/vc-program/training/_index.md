@@ -1,6 +1,13 @@
 ---
 title: 'Training'
 date: '2019-01-02T17:27:09+0000'
+menu:
+  main:
+    parent: 'program'
+    name: "Training"
+    identifier: "training"
+    url: "/committee/vc-program/training/"
+    weight: 3
 mermaid: true
 ---
 

@@ -1,6 +1,13 @@
 ---
 title: 'Commissioners'
 description:
+menu:
+  main:
+    parent: "commissioners"
+    name: "Overview"
+    identifier: "commissioner-overview"
+    url: "/commissioners/"
+    weight: 1
 ---
 
 ## What we do

@@ -1,6 +1,13 @@
 ---
 title: 'District Committee'
 description:
+menu:
+  main:
+    parent: 'committee'
+    name: "Overview"
+    identifier: "committee-overview"
+    url: "/committee/"
+    weight: 1
 mermaid: true
 ---
 

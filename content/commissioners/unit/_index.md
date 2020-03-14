@@ -1,7 +1,13 @@
 ---
 title: 'Unit Commissioners'
 description: "Your unit's personal connection to the district and the council"
-
+menu:
+  main:
+    parent: "commissioners"
+    name: 'Unit'
+    identifier: "unit"
+    url: "/commissioners/unit"
+    weight: 3
 ---
 
 ## What we do
