@@ -72,6 +72,7 @@
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
     background-color: #ddd;
+    width: 100%;
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
