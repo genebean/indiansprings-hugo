@@ -1,67 +1,74 @@
 <menu id="site-nav-menu" class="flyout-menu">
-  {{ $currentPage := . }}
-  {{ range .Site.Menus.main }}
-    {{ if .HasChildren }}
-    <div class="dropdown">
-      <a class="dropbtn" onclick='showMenu("{{ .Identifier }}")'>
-        {{ with .Pre }}{{ . }} {{ end }}
-        {{ .Name }}
-        <i class="fa fa-caret-down"></i>
-      </a>
-      <div class="dropdown-content" id="{{ .Identifier }}">
-        <ul>
+  {{ $currentPage := . }} {{ range .Site.Menus.main }} {{ if .HasChildren }}
+  <div class="dropdown">
+    <a class="dropbtn {{ .Identifier }}" onclick='showMenu("{{ .Identifier }}")'>
+      {{ with .Pre }}{{ . }} {{ end }} {{ .Name }}
+      <i class="fa fa-caret-down"></i>
+    </a>
+    <div class="dropdown-content" id="{{ .Identifier }}">
+      <ul>
         {{ range .Children }}
+        <li>
+          <a href="{{ .URL | relLangURL }}" class="link">
+            {{ with .Pre }}{{ . }} {{ end }}{{ .Name }}
+          </a>
+        </li>
+        {{ if .HasChildren }}
+        <ul>
+          {{ range .Children }}
           <li>
             <a href="{{ .URL | relLangURL }}" class="link">
-              {{ with .Pre }}{{ . }} {{ end }}{{ .Name }}
+              - {{ with .Pre }}{{ . }} {{ end }}{{ .Name }}
             </a>
           </li>
-          {{ if .HasChildren }}
-            <ul>
-              {{ range .Children }}
-                <li>
-                  <a href="{{ .URL | relLangURL }}" class="link">
-                    - {{ with .Pre }}{{ . }} {{ end }}{{ .Name }}
-                  </a>
-                </li>
-              {{ end }}
-            </ul>
           {{ end }}
-        {{ end }}
-       </ul>
-      </div>
+        </ul>
+        {{ end }} {{ end }}
+      </ul>
     </div>
-    {{ else }}
-      <a href="{{ .URL | relLangURL }}" class="link">
-        {{ with .Pre }}{{ . }} {{ end }}{{ .Name }}
-      </a>
-    {{ end }}
-  {{ end }}
-  {{ if .Site.Params.header.shareMenu }}
-    <a href="#share-menu" class="share-toggle">
-      <i class="fas fa-share-alt">&nbsp;</i>
-      Share
-    </a
-  >{{ end }}
-  {{ if .Site.Params.header.searchMenu }}
-    {{ partial "search-menu" . }}
-  {{ end }}
+  </div>
+  {{ else }}
+  <a href="{{ .URL | relLangURL }}" class="link">
+    {{ with .Pre }}{{ . }} {{ end }}{{ .Name }}
+  </a>
+  {{ end }} {{ end }} {{ if .Site.Params.header.shareMenu }}
+  <a href="#share-menu" class="share-toggle">
+    <i class="fas fa-share-alt">&nbsp;</i>
+    Share
+  </a>{{ end }} {{ if .Site.Params.header.searchMenu }} {{ partial "search-menu" . }} {{ end }}
 </menu>
 
 <script>
+  // we need to keep track of the last menu that was triggered
+  var lastTriggeredName = null;
+
   /* When the user clicks on the button, 
   toggle between hiding and showing the dropdown content */
   function showMenu(menuName) {
+    // if we're opening a menu, all others should be closed.
+    closeAllMenus();
+
     document.getElementById(menuName).classList.toggle("show");
+    lastTriggeredName = menuName;
   }
-  
+
+  function closeAllMenus() {
+    var openMenuList = document.getElementsByClassName('dropdown-content show');
+    for (var ii = 0; ii < openMenuList.length; ii++) {
+      openMenuList[ii].classList.remove('show');
+    }
+    lastTriggeredName = null;
+  }
+
   // Close the dropdown if the user clicks outside of it
-  // window.onclick = function(e) {
-  //   if (!e.target.matches('.dropbtn')) {
-  //   var myDropdown = document.getElementById(menuName);
-  //     if (myDropdown.classList.contains('show')) {
-  //       myDropdown.classList.remove('show');
-  //     }
-  //   }
-  // }
-  </script>
+  window.onclick = function (e) {
+    // let's get our triggers
+    var currentTrigger = e.target;
+    var lastTrigger = document.getElementsByClassName(`dropbtn ${lastTriggeredName}`)[0];
+
+    // if they don't match, let's assume we're clicking off the menu
+    if (currentTrigger !== lastTrigger) {
+      closeAllMenus();
+    }
+  }
+</script>
