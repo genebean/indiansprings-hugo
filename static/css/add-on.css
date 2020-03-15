@@ -44,6 +44,7 @@
 
 /* Dropdown content (hidden by default) */
 .dropdown-content {
+    margin-top: 56px;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
