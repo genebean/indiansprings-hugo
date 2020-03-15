@@ -3,11 +3,11 @@
   {{ range .Site.Menus.main }}
     {{ if .HasChildren }}
     <div class="dropdown">
-      <button class="dropbtn" onclick='showMenu("{{ .Identifier }}")'>
+      <a class="dropbtn" onclick='showMenu("{{ .Identifier }}")'>
         {{ with .Pre }}{{ . }} {{ end }}
         {{ .Name }}
         <i class="fa fa-caret-down"></i>
-      </button>
+      </a>
       <div class="dropdown-content" id="{{ .Identifier }}">
         <ul>
         {{ range .Children }}
