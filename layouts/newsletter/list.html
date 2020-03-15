@@ -6,6 +6,10 @@
     <div id="wrapper">
       {{ partial "site-intro" . }}
       <main id="site-main">
+        <main id="site-main">
+          <!-- <article class="post"> -->
+            {{.Content}}
+          <!-- </article> -->
         {{ $paginator := .Paginate (where site.RegularPages "Type" "in" "newsletter") }}
         {{ range $paginator.Pages }}
           {{ .Render "content-list" }}
