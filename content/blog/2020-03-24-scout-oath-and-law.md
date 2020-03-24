@@ -1,7 +1,7 @@
 ---
 author: Helen Albrightson
 title: Scout Oath & Law
-date: 2020-03-20T22:16:22.514Z
+date: 2020-03-24T16:45:00-0400
 description: Do a Good Turn Daily
 categories:
   - Announcement
