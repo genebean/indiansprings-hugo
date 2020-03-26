@@ -9,12 +9,17 @@ googleAnalytics         = ""
 pluralizeListTitles     = false
 disableLanguages        = [""]
 
+[author]
+  name                 = "Gene Liverman"
+  email                = "webmaster@indianspringsbsa.org"
+
 [params]
   github_repo           = "https://github.com/genebean/indiansprings-hugo"
 
   mainSections          = ["newsletter", "post"]
   recents               = ["newsletter", "post"]
   enableCDN             = false
+  rssIcon               = "/img/main/rss-logo-32x32.png"
 
   # Loads CSS and JavaScript files. The variable is an array so that you can load
   # multiple/additional files if necessary. The standard theme files can be loaded
