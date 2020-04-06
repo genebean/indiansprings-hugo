@@ -130,34 +130,6 @@ collections:
           - label: 'Body'
             name: 'body'
             widget: 'markdown'
-      - label: "Roundtable Documents"
-        name: "roundtable-documents"
-        file: "content/commissioners/roundtable/documents.md"
-        fields:
-          - label: 'Title'
-            name: 'title'
-            widget: 'string'
-          - label: 'Description'
-            name: 'description'
-            widget: 'string'
-            required: false
-          - label: 'Body'
-            name: 'body'
-            widget: 'markdown'
-      - label: "Roundtable Links"
-        name: "roundtable-links"
-        file: "content/commissioners/roundtable/links.md"
-        fields:
-          - label: 'Title'
-            name: 'title'
-            widget: 'string'
-          - label: 'Description'
-            name: 'description'
-            widget: 'string'
-            required: false
-          - label: 'Body'
-            name: 'body'
-            widget: 'markdown'
       - label: "Unit Commissioners Page"
         name: "unit"
         file: "content/commissioners/unit/_index.md"
@@ -192,6 +164,34 @@ collections:
       - label: "Training Page"
         name: "training"
         file: "content/committee/vc-program/training/_index.md"
+        fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Description'
+            name: 'description'
+            widget: 'string'
+            required: false
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+      - label: "Training Documents"
+        name: "training-documents"
+        file: "content/committee/vc-program/training/documents.md"
+        fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Description'
+            name: 'description'
+            widget: 'string'
+            required: false
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+      - label: "Training Links"
+        name: "training-links"
+        file: "content/committee/vc-program/training/links.md"
         fields:
           - label: 'Title'
             name: 'title'
