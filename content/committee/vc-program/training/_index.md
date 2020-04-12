@@ -2,6 +2,9 @@
 title: Training
 date: '2019-01-02T17:27:09+0000'
 mermaid: true
+aliases:
+  - /training
+  - /committees/training/
 ---
 ![uniform knots](/uploads/Training-Knots.jpg)
 
