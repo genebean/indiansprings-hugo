@@ -37,7 +37,9 @@ Upcoming training - BALOO October 24-25 at Clinton.
 
 **Communications/Gene Liverman** - (did you publish draft document ?)  Please insert whatever else you want to share with the members.
 
-**Membership/Andy Camp** - Recruited 108 youth in the first round of events.  Follow up events are planned; hopefully we’ll reach our goal of 500 new Cubs.  
+**Membership/Andy Camp** - Recruited 108 youth in the first round of events.  Follow up events are planned; hopefully we’ll reach our goal of 500 new Cubs.
+
+Also, a new [membership resources](/membership-resources) page has been published on our website at thanks to Sarah Bush.
 
 **Finance/John Sammon** - The 4 fundraising positions has been filled.  The Golden Eagle Luncheon on December 11 will be a virtual event.
 
