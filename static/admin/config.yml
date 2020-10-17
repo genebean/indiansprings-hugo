@@ -161,6 +161,20 @@ collections:
           - label: 'Body'
             name: 'body'
             widget: 'markdown'
+      - label: "Membership Resources Page"
+        name: "membership-resources"
+        file: "content/committee/vc-membership/resources/_index.md"
+        fields:
+          - label: 'Title'
+            name: 'title'
+            widget: 'string'
+          - label: 'Description'
+            name: 'description'
+            widget: 'string'
+            required: false
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
       - label: "Training Page"
         name: "training"
         file: "content/committee/vc-program/training/_index.md"
