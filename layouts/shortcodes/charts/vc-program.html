@@ -36,6 +36,11 @@
     DE{{ $elem_index }} -.- DistrictChair
     {{ end }}
 
+    {{ range $elem_index, $elem_val := .Site.Data.district_roles.life_to_eagle_coaches | default "vacant" }}
+    L2EC{{ $elem_index }}[Life to Eagle Coach: {{ $elem_val }}]
+    AdvancementRecognition --- L2EC{{ $elem_index }}
+    {{ end }}
+
     DistrictChair --- ViceChairProgram
       ViceChairProgram --- ActivitiesCivicService
         ActivitiesCivicService --- Camporee
