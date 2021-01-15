@@ -1,14 +1,13 @@
 ---
 district_executives:
   - 'Carter Smith'
-  - 'Jacob John'
 
 district_chair: 'Helen Albrightson'
 
-nominating_committee: 'Kent Lovern'
+nominating_committee: 'Kent Lovvorn'
 
-vice_chair_membership: 'Steven Fitz'
-membership: 'Andy Camp'
+vice_chair_membership: 'Andy Camp'
+membership:
 snfs: 
 spring_recruitment: 
 new_units: 
@@ -17,10 +16,10 @@ retention:
 
 vice_chair_finance: 'John Sammon'
 general_finance: 
-camp_card_sales: 'Kim Jones'
-popcorn_sales: 
+camp_card_sales: 'Charlene Bond'
+popcorn_sales: 'Samantha Kornegay'
 unit_fundraising: 
-fos: 'Molly Camp'
+fos:
 community_fos: 
 family_fos: 
 golden_eagle: 
@@ -31,16 +30,19 @@ camporee:
 pinewood_derby:
 service_projects:
 hornaday:
-district_banquet: 'Scott Bates'
-advancement_recognition: 'Dr. Ken Calain'
+district_banquet: 'Samantha Kornegay'
+advancement_recognition: 'Mike Handyside'
 eagle_bor:
-merit_badge:
+merit_badge: 'Wendy Cullison'
+life_to_eagle_coaches:
+  - 'Eric McDonald'
+  - 'James Hembree'
 recognitions:
 religious_awards:
 district_awards: 'Scott Bates'
 camping_outdoor:
 day_camp_promotion:
-oa: 'Wayne Hicks'
+oa:
 resident_camp:
 health_safety:
 communications: 'Gene Liverman'
