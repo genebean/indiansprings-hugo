@@ -16,12 +16,12 @@
     text-align: center;
 }
 
+#body {
+    color: #000;
+}
+
 #mc_embed_signup {
     background: #fff;
     clear: left;
     font: 14px Helvetica, Arial, sans-serif;
-}
-
-#nav {
-    color: #000;
 }
