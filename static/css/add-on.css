@@ -16,6 +16,10 @@
     text-align: center;
 }
 
+#.site-nav {
+    color: #000;
+}
+
 #mc_embed_signup {
     background: #fff;
     clear: left;
