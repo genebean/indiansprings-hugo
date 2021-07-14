@@ -13,3 +13,7 @@ aliases:
 ## Google Docs
 
 * [New Parent Information](https://docs.google.com/document/d/18aOUwcx-uj3ztAfKZuokuV5TUUaDIGxR2-A9V0oNv4g/edit?usp=sharing)
+
+## Other Documents
+
+* [2021-AAC-Membership-Messages-to-be-Shared.pdf](/uploads/2021-AAC-Membership-Messages-to-be-Shared.pdf)
