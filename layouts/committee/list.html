@@ -3,6 +3,10 @@
   {{ partial "head" . }}
   <body>
     {{ partial "site-header" . }}
+    {{ if (.Params.calendar) }}
+      {{ partial "calendar" . }}
+      {{ partial "scripts" . }}
+    {{ else }}
     <div id="wrapper">
       {{ partial "site-intro" . }}
       {{ partial "group-list" . }}
@@ -13,5 +17,6 @@
         {{ partial "mermaid-scripts" . }}
       {{ end }}
     </div>
+    {{ end }}
   </body>
 </html>
