@@ -6,6 +6,10 @@ We are located in west Georgia, serving Scouts in Carroll, Douglas, and Haralson
 
 Indian Springs is part of the [Atlanta Area Council](https://www.atlantabsa.org) of the Boy Scouts of America. You can see a listing of all the districts at [here](https://www.atlantabsa.org/districts).
 
+### What's Happening
+
+Check out our [Distric Calendar]({{< relref "/calendar" >}} "Indian Springs District Calendar") to see what's happening.
+
 ### Lion
 
 Lion is Scouting for kindergarten-age boys and girls.
@@ -30,6 +34,7 @@ The BSA’s mission is to prepare young people to make ethical and moral choices
 
 ### Quick links for units
 
+- [Distric Calendar]({{< relref "/calendar" >}})
 - [Internet Recharter](https://scoutnet.scouting.org/ucrs/UI/home/default.aspx)
 - [Internet Advancement](https://scoutbook.scouting.org/login)
 - [Service Hour Reporting](https://servicehours.scouting.org/UI/Security/Login.aspx)
