@@ -7,6 +7,7 @@ categories:
 description: >-
   Fall is here! JOTA just happened, Roundtable is Thursday,the Annual District Business Meeting is Nov. 4th, Cub Scout Field Day is Saturday, and Webelos Woods is Nov. 12th. And, to top it all off, Vickie Brubaker has become the first female Eagle Scout in the Indian Springs District!
 image: 'uploads/jota-20211016-inside.jpg'
+image_alt: 'Jamboree on the Air'
 ---
 
 Fall has arrived and there are lots of events happening in Indian Springs! Last Saturday was Jamboree On The Air (JOTA), this Thursday, Oct. 21st, is Roundtable at Bethany Christian Church, Webelos Woods is Nov. 12-14, BALOO is Nov. 13-14, and the annual Commissioner Conference is Nov. 20th. Check out [indianspringsbsa.org/calendar](https://www.indianspringsbsa.org/calendar/) and subscribe to stay in the know about what's happening.
