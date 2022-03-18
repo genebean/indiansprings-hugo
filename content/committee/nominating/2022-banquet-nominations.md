@@ -1,19 +1,17 @@
 ---
-title: "2020 Banquet Nominations"
-date: 2020-03-03T22:19:27-05:00
-nomination_year: 2020
-enabled: false
+title: "2022 Banquet Nominations"
+date: 2022-03-18T09:00:00-04:00
+nomination_year: 2022
+enabled: true
 contact_lang: "en"
 netlify: true
 ---
 
-## Indian Springs Adult Award Nomination Process
+Each year we hold a District Banquet and give out awards for the previous calendar year. Below is information about how nominations work, the available awards, and a form you can use to submit nominations.
 
-__Updated November 11, 2019__
+## Nomination Process and Guidelines
 
-### Nomination Submissions
-
-Due to a number of problems with previous years adult award nomination submissions, it has been necessary to make a few important changes and/or improvements to the process for the benefit of our awards and recognition program. Below are listed these items of concern as guidelines for making this process work better than ever. All adult award nominations will be given equal consideration as long as the following guidelines are adhered to.
+Below are guidelines for the nomination process. All adult award nominations will be given equal consideration as long as the following guidelines are adhered to.
 
 1. Anonymous submissions will NOT be considered. Even though submissions for the awards are typically kept confidential, any submission of a nomination for any award MUST be accompanied by the name of the person, or persons making the nomination submission. NO EXCEPTIONS.
 2. Adult award nominations can ONLY be made by adults. Nominations for adult awards made by youth will not be considered. This is not meant to keep youth from having a voice in the process, so youth wishing to support a nomination must do so at the unit level with other adults.
@@ -32,9 +30,9 @@ Presented for longevity of service to the scouting program. There is no requirem
 
 ### Scoutmaster of the Year
 
-Presented to the Scoutmaster having the most remarkable record of service for the current year under consideration. Past year performances are NOT considered. ONLY Scoutmasters will be considered for this award. (ASMs are not included in this award, but may be considered for the Boy Scouter of the Year award.)
+Presented to the Scoutmaster having the most remarkable record of service for the current year under consideration. Past year performances are NOT considered. ONLY Scoutmasters will be considered for this award. (ASMs are not included in this award, but may be considered for the Troop Scouter of the Year award.)
 
-### Boy Scouter of the Year
+### Troop Scouter of the Year
 
 Presented to the Boy Scout adult leader having the most remarkable record of service for the current year under consideration. Past year performances are NOT considered. Adult leaders who may be considered for this award are all adult leaders in a unit, but does NOT include the Scoutmaster.
 
