@@ -15,6 +15,7 @@ disableLanguages        = [""]
 
 [params]
   github_repo           = "https://github.com/genebean/indiansprings-hugo"
+  images = ["uploads/main-hero.jpg"]
 
   mainSections          = ["newsletter", "post"]
   recents               = ["newsletter", "post"]
