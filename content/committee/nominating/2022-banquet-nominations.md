@@ -2,7 +2,7 @@
 title: "2022 Banquet Nominations"
 date: 2022-03-18T09:00:00-04:00
 nomination_year: 2022
-enabled: true
+enabled: false
 contact_lang: "en"
 netlify: true
 ---
