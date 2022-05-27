@@ -7,7 +7,7 @@ categories:
 description: >
   Spring is here! This month's newsletter recaps some pretty awesome stuff from the last couple of months including awards, a flag retirement ceremony, camp cards, and our new District Director. Some information related to recharter and the UMC is also included.
 images:
-  -  ‘uploads/2022-02-flag-retirement.jpg’
+  -  'uploads/2022-02-flag-retirement.jpg'
 image: 'uploads/2022-02-flag-retirement.jpg'
 image_alt: 'photograph from a recent flag retirement ceremony'
 ---
