@@ -8,7 +8,7 @@ description: >
   Awards given, Cub Scouts Twilight Camp 2022,
   and our 2022 – 2023 District Calendar
 images:
-  -  ‘uploads/2022-05-award.jpg’
+  - 'uploads/2022-05-award.jpg'
 image: 'uploads/2022-05-award.jpg'
 image_alt: 'image of award types'
 ---
