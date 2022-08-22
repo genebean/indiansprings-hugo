@@ -5,7 +5,7 @@ date: 2022-08-21T22:30:00-0400
 categories:
   - newsletter
 description: >
-  With one month of summer left, our district isn't slowing down even a little! In fact, you can even set sail with Sea Scout Ship 17 while simultaneously earning a merit badge! Read on info about where things stand between BSA and the UMC, training opportunities including BALOO, activites like Cub Shooting Sports Day, and the Georgia Master Naturalist program.
+  With one month of summer left, our district isn't slowing down even a little! In fact, you can even set sail with Sea Scout Ship 17 while simultaneously earning a merit badge! Read on for about where things stand between BSA and the UMC, training opportunities including BALOO, activites like Cub Shooting Sports Day, and the Georgia Master Naturalist program.
 images:
   - 'uploads/2022-08-sea-scouts.jpeg'
 image: 'uploads/2022-08-sea-scouts.jpeg'
