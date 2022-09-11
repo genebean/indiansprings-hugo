@@ -1,7 +1,7 @@
 ---
 author: Gene Liverman
 title: September 2022 Newsletter
-date: 2202-09-10T23:00:00-0400
+date: 2022-09-10T23:00:00-0400
 categories:
   - newsletter
 description: >
