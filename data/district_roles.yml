@@ -1,11 +1,25 @@
 ---
 district_executives:
   - 'Chadwich Harris, PA'
-  - 'roman Montgomery'
+  - 'Roman Montgomery'
 
 district_chair: 'Helen Albrightson'
 
+district_commissioner: 'Alisha LaPointe'
+
+communications: 'Gene Liverman'
+
 nominating_committee: 'Kent Lovvorn'
+
+vice_chair_finance: 'John Sammon'
+general_finance: 
+camp_card_sales: 'Charlene Bond'
+popcorn_sales: 
+unit_fundraising: 
+fos:
+community_fos: 
+family_fos: 
+golden_eagle: 
 
 vice_chair_membership: 'Andy Camp'
 membership:
@@ -15,29 +29,18 @@ new_units:
 venturing_exploring: 
 retention: 
 
-vice_chair_finance: 'John Sammon'
-general_finance: 
-camp_card_sales: 'Charlene Bond'
-popcorn_sales: 'Samantha Kornegay'
-unit_fundraising: 
-fos:
-community_fos: 
-family_fos: 
-golden_eagle: 
-
 vice_chair_program: 'Georgia Deakin'
 activities_service:
 camporee:
 pinewood_derby:
 service_projects:
 hornaday:
-district_banquet: 'Samantha Kornegay'
+district_banquet: 
 advancement_recognition: 'Mike Handyside'
 eagle_bor:
 merit_badge: 'Wendy Cullison'
 life_to_eagle_coaches:
   - 'Eric McDonald'
-  - 'James Hembree'
 recognitions:
 religious_awards:
 district_awards: 'Scott Bates'
@@ -46,7 +49,6 @@ day_camp_promotion:
 oa:
 resident_camp:
 health_safety:
-communications: 'Gene Liverman'
 training: 'Kyle Taylor'
 cub_scout:
 scouts_bsa:

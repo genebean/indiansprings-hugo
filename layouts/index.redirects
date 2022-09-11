@@ -1,0 +1,5 @@
+# Redirect old website structure to current structure
+/commissioners/*                            /info/commissioners/:splat
+/committee/vc-program/communications/*      /info/committee/communications/:splat
+/committee/*                                /info/committee/:splat
+/newsletter/*                               /blog/:splat
