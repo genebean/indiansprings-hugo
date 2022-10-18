@@ -6,7 +6,7 @@ draft: true
 
 Below is a list of units within the Indian Springs District along with some high level information about each.
 
-| Unit | City | Chartered Orginazation | Website |
+| Unit | City | Chartered Organization | Website |
 |------|------|------------------------|---------|
 |      |      |                        |         |
 

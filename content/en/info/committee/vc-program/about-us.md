@@ -5,7 +5,7 @@ weight: 171
 
 The Vice Chair of Program is responsible for recruiting and building an organization of volunteers to strengthen and enrich unit program by overseeing the district's program function and supporting the work of the district program volunteers.
 
-__{{< district-role "vice_chair_program" >}}__ is the chair and has a team made up of these postions:
+__{{< district-role "vice_chair_program" >}}__ is the chair and has a team made up of these positions:
 
 | Position                   | Lead Volunteer                                  |
 |----------------------------|-------------------------------------------------|
@@ -16,7 +16,7 @@ __{{< district-role "vice_chair_program" >}}__ is the chair and has a team made 
 
 ## Activities & Civic Service
 
-[Activities & Civic Service]({{< ref "activities-civic-service/about-us.md" >}}) is a sub-team made up of these postions:
+[Activities & Civic Service]({{< ref "activities-civic-service/about-us.md" >}}) is a sub-team made up of these positions:
 
 | Position      | Lead Volunteer                        |
 |---------------|---------------------------------------|
@@ -28,7 +28,7 @@ __{{< district-role "vice_chair_program" >}}__ is the chair and has a team made 
 
 ## Advancement & Recognition
 
-[Advancement & Recognition]({{< ref "advancement-recognition/about-us.md" >}}) is a sub-team made up of these postions:
+[Advancement & Recognition]({{< ref "advancement-recognition/about-us.md" >}}) is a sub-team made up of these positions:
 
 | Position              | Lead Volunteer                                    |
 |-----------------------|---------------------------------------------------|
@@ -41,7 +41,7 @@ __{{< district-role "vice_chair_program" >}}__ is the chair and has a team made 
 
 ## Camping & Outdoors
 
-[Camping & Outdoors]({{< ref "camping-outdoors/about-us.md" >}}) is a sub-team made up of these postions:
+[Camping & Outdoors]({{< ref "camping-outdoors/about-us.md" >}}) is a sub-team made up of these positions:
 
 | Position           | Lead Volunteer                             |
 |--------------------|--------------------------------------------|
@@ -52,7 +52,7 @@ __{{< district-role "vice_chair_program" >}}__ is the chair and has a team made 
 
 ## Training
 
-[Training]({{< ref "training/about-us/index.md" >}}) is a sub-team made up of these postions:
+[Training]({{< ref "training/about-us/index.md" >}}) is a sub-team made up of these positions:
 
 | Position   | Lead Volunteer                     |
 |------------|------------------------------------|

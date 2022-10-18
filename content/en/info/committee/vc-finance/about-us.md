@@ -5,7 +5,7 @@ weight: 131
 
 The Vice Chair of Finance is responsible for building an organization capable of executing the district’s overall finance plan in support of the strategic plan.
 
-__{{< district-role "vice_chair_finance" >}}__ is the chair and has a team made up of these postions:
+__{{< district-role "vice_chair_finance" >}}__ is the chair and has a team made up of these positions:
 
 | Position                  | Lead Volunteer                           |
 |---------------------------|------------------------------------------|
@@ -18,7 +18,7 @@ __{{< district-role "vice_chair_finance" >}}__ is the chair and has a team made 
 
 ## Friends of Scouting
 
-Friends of Scouting is a sub-team made up of these postions:
+Friends of Scouting is a sub-team made up of these positions:
 
 | Position      | Lead Volunteer                        |
 |---------------|---------------------------------------|

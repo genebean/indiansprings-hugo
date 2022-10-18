@@ -17,7 +17,7 @@ Indian Springs is part of the [Atlanta Area Council](https://www.atlantabsa.org)
 
 ### What's Happening
 
-Check out our [Distric Calendar]({{< relref "/calendar" >}} "Indian Springs District Calendar") to see what's happening.
+Check out our [District Calendar]({{< relref "/calendar" >}} "Indian Springs District Calendar") to see what's happening.
 
 ### Lion
 
@@ -43,7 +43,7 @@ The BSA’s mission is to prepare young people to make ethical and moral choices
 
 ### Quick links for units
 
-- [Distric Calendar]({{< relref "/calendar" >}})
+- [District Calendar]({{< relref "/calendar" >}})
 - [Internet Recharter](https://scoutnet.scouting.org/ucrs/UI/home/default.aspx)
 - [Scout Book](https://scoutbook.scouting.org)
 - [Internet Advancement](https://advancements.scouting.org)

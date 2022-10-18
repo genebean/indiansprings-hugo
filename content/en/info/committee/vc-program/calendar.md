@@ -11,4 +11,4 @@ weight: 172
 
 <hr>
 
-Our district calendar should be embeded above. It is also availbe directly [here](https://calendar.google.com/calendar/embed?src=ad4mt9gm8q7138kc0gc9sj8sfs%40group.calendar.google.com&ctz=America%2FNew_York).
+Our district calendar should be embedded above. It is also available directly [here](https://calendar.google.com/calendar/embed?src=ad4mt9gm8q7138kc0gc9sj8sfs%40group.calendar.google.com&ctz=America%2FNew_York).

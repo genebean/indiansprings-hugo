@@ -55,7 +55,7 @@ All existing Cub Scouts are encouraged to come out to Bethany Christian Church o
 
 ### Even More Fun
 
-In additon to the upcoming shooting sports day and the sailing days with Ship 117, we also have these events to look forward to:
+In addition to the upcoming shooting sports day and the sailing days with Ship 117, we also have these events to look forward to:
 
 * **September 16-18** - District Camporee @ Clinton Pioneering theme, watch for the flyer coming soon
 * **October 21-23** - Webelos Woods @ Clinton
