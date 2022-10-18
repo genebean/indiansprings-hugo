@@ -2,4 +2,5 @@
 /commissioners/*                            /info/commissioners/:splat
 /committee/vc-program/communications/*      /info/committee/communications/:splat
 /committee/*                                /info/committee/:splat
+/newsletter/index.xml                       /categories/newsletter/index.xml
 /newsletter/*                               /blog/:splat
