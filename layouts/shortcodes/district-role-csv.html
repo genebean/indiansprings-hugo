@@ -1,0 +1,5 @@
+{{ $role := .Get 0 }}
+{{- range $index, $element := (index .Site.Data.district_roles $role) -}}
+  {{- if $index -}}, {{ end -}}
+  {{- $element -}}
+{{- end -}}

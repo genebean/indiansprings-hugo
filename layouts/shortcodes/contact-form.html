@@ -1,0 +1,34 @@
+<div class="contact-container">
+  {{ if $.Page.Params.netlify }}
+  <form name="{{ $.Page.Params.form_name }}-form" action="thank-you" netlify netlify-honeypot="always-empty" center width="300px">
+  {{ else }}
+  <form id="{{ $.Page.Params.form_name }}-form" action="//{{ $.Page.Params.emailService }}" method="post" center width="300px">
+  {{ end }}
+    <fieldset>
+      <input placeholder="{{ with $.Page.Params.contact_name }}{{ . }}{{ else }}Name{{ end }}" type="text" name="name"
+        tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="{{ with $.Page.Params.contact_email }}{{ . }}{{ else }}Email{{ end }}" type="email" name="_replyto"
+        tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="{{ with $.Page.Params.contact_subject }}{{ . }}{{ else }}Subject{{ end }}" type="text"
+        name="_subject" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="{{ with $.Page.Params.contact_message }}{{ . }}{{ else }}Message{{ end }}" name="message"
+        tabindex="4" required></textarea>
+    </fieldset>
+    <fieldset>
+      <input type="hidden" name="_language" value="{{ $.Page.Params.contact_lang }}">
+    </fieldset>
+    <fieldset>
+      <input type="hidden" name="_contact_page" value="This contact came from the form on {{ $.Page.Permalink }}">
+    </fieldset>
+    <fieldset>
+      <button name="submit" class="btn btn-primary btn-sm px-4 mb-2" type="submit" id="contact-submit" tabindex="5">{{ i18n "submit" }}</button>
+    </fieldset>
+  </form>
+  {{ with $.Page.Params.contact_answer_time }}<p>{{ i18n "replies-text" $.Page.Params.contact_answer_time }}</p>{{ end }}
+</div>

@@ -1,40 +1,46 @@
-{{- $pages := .RegularPages -}}
-{{- if .IsHome -}}
-  {{- $pages = .Site.RegularPages -}}
-{{- else -}}
-{{- end -}}
-<generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
-<language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
-<managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
-<webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
-<copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
-<lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
-{{ with .OutputFormats.Get "RSS" }}
-    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
-{{ end }}
-{{ range $pages }}
-<item>
-  <title>{{ .Title }}</title>
-  <link>{{ .Permalink }}</link>
-  <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>{{ with .Params.Author }}
-  <author>{{.}}</author>
-  <dc:creator>{{.}}</dc:creator>{{end}}
-  <guid>{{ .Permalink }}</guid>
-  <description>
-    {{- if .Params.image -}}
-    &lt;a href=&#34;{{ .RelPermalink }}&#34;&gt;
-    &lt;img src=&#34;{{ .Params.image | relURL }}&#34; {{ with .Params.image_alt }}alt=&#34;{{ . }}&#34;{{ end }}&gt;
-    &lt;/a&gt;
-    {{- end -}}
-    {{ .Summary | html }}
-  </description>
-  <content:encoded>
-    {{- if .Params.image -}}
-    &lt;a href=&#34;{{ .RelPermalink }}&#34;&gt;
-    &lt;img src=&#34;{{ .Params.image | relURL }}&#34; {{ with .Params.image_alt }}alt=&#34;{{ . }}&#34;{{ end }}&gt;
-    &lt;/a&gt;
-    {{- end -}}
-    {{ .Content | html }}
-  </content:encoded>
-</item>
-{{ end }}
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\" ?>" | safeHTML }}
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:media="http://search.yahoo.com/mrss/" >
+  <channel>
+    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{. | title}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <generator>Hugo -- gohugo.io</generator>{{ with .Site.Params.languageTag | default "en-US" }}
+    <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
+    <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
+    <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Params.copyRight }}
+    <copyright>{{ . | safeHTML }}</copyright>{{end}}{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{ with .OutputFormats.Get "RSS" }}
+        {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{ end }}{{ if .Site.Params.rssIcon }}
+    <image>
+      <url>{{ .Site.Params.rssIcon | absURL }}</url>
+      <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{. | title}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+      <link>{{ .Permalink }}</link>
+    </image>{{ end }}
+    {{ range .Pages }}{{ if ne .Params.feed_exclude true }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      {{ range .Params.Contributors }}<dc:creator>{{.}}</dc:creator>{{end}}
+      <guid>{{ .Permalink }}</guid>
+      <description>
+        {{ .Summary | html }}
+      </description>
+      {{ if .Params.images }}
+      <media:content
+        url="{{ .Permalink }}{{ (index .Params.images 0) }}"
+        medium="image" />
+      {{ end }}
+      <content:encoded>
+        {{ .Content | html }}
+      </content:encoded>
+    </item>
+    {{ end }}{{ end }}
+  </channel>
+</rss>

@@ -4,5 +4,5 @@
 
 This repo is the code behind https://www.indianspringsbsa.org.
 
-See the site's [Admin Guide](https://www.indianspringsbsa.org/committee/vc-program/communications/admin-guide/) for information on contirbuting.
+See the site's [Admin Guide](https://www.indianspringsbsa.org/info/committee/communications/admin-guide/) for information on contirbuting.
 

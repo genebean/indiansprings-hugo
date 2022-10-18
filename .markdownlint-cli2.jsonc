@@ -1,0 +1,16 @@
+{
+  "config": {
+    "default": true,
+    "MD002": {
+      "level": 2
+    },
+    "MD013": {
+      "line_length": 10000
+    },
+    "MD024": false,
+    "MD026": false,
+    "MD033": false,
+    "MD034": false
+  },
+  "ignores": ["node_modules", "CHANGELOG.md", "README.md"]
+}
