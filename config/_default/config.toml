@@ -1,4 +1,4 @@
-baseurl = "https://isdbsa.org/"
+baseurl = "https://www.indianspringsbsa.org/"
 canonifyURLs = true
 disableAliases = false
 disableHugoGeneratorInject = true

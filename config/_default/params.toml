@@ -9,7 +9,7 @@ description = "Indian Springs District, BSA serves youth in west Georgia's Carro
 ## Open Graph
 images = ["logo.png"]
 ogLocale = "en_US"
-domainTLD = "isdbsa.org"
+domainTLD = "www.indianspringsbsa.org"
 titleHome = "Indian Springs District, BSA"
 
 ## Twitter Cards
