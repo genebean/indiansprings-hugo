@@ -1,26 +1,27 @@
 ---
 district_executives:
-  - 'Roman Montgomery'
+  - 'Jonathan Lewis'
 
-district_chair: 'Helen Albrightson'
+district_chair: 'Jamie Pace'
 
-district_commissioner: 'Alisha LaPointe'
+district_commissioner: 'Kyle Taylor'
 
 communications: 'Gene Liverman'
 
-nominating_committee: 'Kent Lovvorn'
+nominating_committee: 'Larry Cohran'
 
-vice_chair_finance: 
-general_finance: 
+vice_chair_finance: 'Nancy Workman' = vice chair fund development
+general_finance: 'Kelly Ragsdale' = product sales chair
 camp_card_sales: 
 popcorn_sales: 
 unit_fundraising: 
 fos:
-community_fos: 
-family_fos: 
+community_fos: 'Helen Albrightson'
+family_fos: 'Larry Dobbs'
 golden_eagle: 
 
 vice_chair_membership: 'Steven Fitz'
+scoutreach:
 membership:
 snfs: 
 spring_recruitment: 
@@ -35,7 +36,7 @@ pinewood_derby:
 service_projects:
 hornaday:
 district_banquet: 
-advancement_recognition: 'Mike Handyside'
+advancement_recognition: 'Scott Bates'
 eagle_bor:
 merit_badge: 
 life_to_eagle_coaches:
@@ -48,7 +49,7 @@ day_camp_promotion:
 oa:
 resident_camp:
 health_safety:
-training: 'Kyle Taylor'
+training: 'Drew Lyle'
 cub_scout:
 scouts_bsa:
 nylt:
